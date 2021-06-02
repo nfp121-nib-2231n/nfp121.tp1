@@ -123,8 +123,9 @@ public class Circle {
         }
 
         for (int i = 0; i < distance; i++) {
-            yPosition += delta;
             draw();
+            yPosition += delta;
+            
         }
     }
 
